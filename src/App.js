@@ -5,12 +5,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div class="nav-div">
-      <nav class="nav">
+      <div className="nav-div">
+      <nav className="nav">
           <ul>
-            <li><a href="index.html" class="nav-page current-page">Home</a></li>
-            <li><a href="projects.html" class="nav-page">Projects</a></li>   
-            <li><a href="contact.html" class="nav-page">Contact</a></li>   
+            <li><a href="index.html" className="nav-page current-page">Home</a></li>
+            <li><a href="projects.html" className="nav-page">Projects</a></li>   
+            <li><a href="contact.html" className="nav-page">Contact</a></li>   
           </ul>
       </nav>
       </div>
@@ -19,8 +19,8 @@ function App() {
         href="https://github.com/ValianaJosic" 
         target="_blank" 
         rel="noopener noreferrer" 
-        class="git-link App-logo" >
-        <img src={git} alt="github-logo" class="git-icon"/>
+        className="git-link App-logo" >
+        <img src={git} alt="github-logo" className="git-icon"/>
         </a>
         <p>
          
