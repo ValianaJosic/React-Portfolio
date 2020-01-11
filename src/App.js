@@ -1,22 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
+import git from './git.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <div class="nav-div">
+      <nav class="nav">
+          <ul>
+            <li><a href="index.html" class="nav-page current-page">Home</a></li>
+            <li><a href="projects.html" class="nav-page">Projects</a></li>   
+            <li><a href="contact.html" class="nav-page">Contact</a></li>   
+          </ul>
+      </nav>
+      </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <a 
+        href="https://github.com/ValianaJosic" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="git-link App-logo" >
+        <img src={git} alt="github-logo" class="git-icon"/>
+        </a>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/ValianaJosic"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github
         </a>
       </header>
     </div>

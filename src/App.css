@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.git-icon{
+  color: turquoise;
+  height: 40vmin;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -31,6 +36,7 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
@@ -40,4 +46,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav, .nav-div, .App{
+  background-color: black;
+}
+
+.nav{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+.nav-page{
+  text-decoration: none;
+  color: white;
+}
+nav > ul {
+  display: flex;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  padding: 20px;
 }
