@@ -22,8 +22,7 @@ function App() {
         className="git-link App-logo" >
         <img src={git} alt="github-logo" className="git-icon"/>
         </a>
-        <p>
-         
+        <p> 
         </p>
       </header>
     </div>
