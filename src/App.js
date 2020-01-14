@@ -25,13 +25,6 @@ function App() {
         <p>
          
         </p>
-        <a
-          className="App-link"
-          href="https://github.com/ValianaJosic"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
       </header>
     </div>
   );
