@@ -29,7 +29,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: white;
 }
 
@@ -60,6 +60,7 @@ right: 0;
 .nav-page{
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 nav > ul {
   display: flex;
