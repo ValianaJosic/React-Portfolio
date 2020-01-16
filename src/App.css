@@ -33,6 +33,11 @@
   color: white;
 }
 
+@keyframes fade {
+  from {background-color: turquoise;}
+  to {background-color: black;}
+}
+
 .App-link {
   color: #61dafb;
   text-decoration: none;
@@ -56,7 +61,10 @@ position: fixed;
 top: 0;
 left: 0;
 right: 0;
+animation-name: fade;
+animation-duration: 8s;
 }
+
 .nav-page{
   text-decoration: none;
   color: white;
@@ -71,4 +79,8 @@ nav a {
   color: white;
   display: inline-block;
   padding: 20px;
+}
+
+a, ul, li {
+  list-style-type: none;
 }
